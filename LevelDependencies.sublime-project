@@ -1,0 +1,63 @@
+{
+	"build_systems":
+	[
+		{
+			"config": "Default",
+			"env":
+			{
+			},
+			"generator": "Ninja",
+			"name": "Default",
+			"target": "cmake_build",
+			"variants":
+			[
+				{
+					"build_target": "CodegenProject",
+					"name": "CodegenProject"
+				},
+				{
+					"build_target": "CodegenRun",
+					"name": "CodegenRun"
+				},
+				{
+					"build_target": "GeodeCodegenSources",
+					"name": "GeodeCodegenSources"
+				},
+				{
+					"build_target": "LevelDependencies",
+					"name": "LevelDependencies"
+				},
+				{
+					"build_target": "LevelDependencies_PACKAGE",
+					"name": "LevelDependencies_PACKAGE"
+				},
+				{
+					"build_target": "fmt",
+					"name": "fmt"
+				},
+				{
+					"name": "ctest",
+					"target": "ctest_run"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		},
+	],
+	"folders":
+	[
+		{
+			"path": ".",
+		},
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"generator": "Ninja",
+			"build_folder": "${project_path}/build",
+		},
+		"ClangFormat": {
+			"format_on_save": true,
+		},
+	},
+}

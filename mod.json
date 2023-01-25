@@ -1,0 +1,8 @@
+{
+	"geode": "1.0.0-beta",
+	"version": "v1.0.0",
+	"id": "alk.level-dependencies",
+	"name": "Level Dependencies",
+	"developer": "alk",
+	"description": "Core utility to safely use content mods with levels"
+}
